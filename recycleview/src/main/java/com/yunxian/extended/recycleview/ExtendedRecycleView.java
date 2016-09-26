@@ -56,7 +56,7 @@ public class ExtendedRecycleView extends RecyclerView {
             removeOnScrollListener(mCommonListener);
         } else {
             addOnScrollListener(mCommonListener);
-            mCommonListener.reset();
+            mVisibleItemAssit.reset();
         }
         this.mOnItemVisibilityListener = mOnItemVisibilityListener;
     }
@@ -81,29 +81,33 @@ public class ExtendedRecycleView extends RecyclerView {
 
     private class BaseCommonListener extends RecyclerView.OnScrollListener {
 
-        int firstVisibleIndex;
-        int firstCompletelyVisibleItem;
-        int lastCompletelyVisibleItem;
-        int lastVisibleIndex;
-
         @Override
         public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
             super.onScrollStateChanged(recyclerView, newState);
 
+            if (mVisibleItemAssit.updateVisibleItemPosition()) {
+                if (mOnItemVisibilityListener != null) {
+                    mOnItemVisibilityListener.onVisibilityChange(mVisibleItemAssit.firstVisibleIndex,
+                            mVisibleItemAssit.firstCompletelyVisibleItem, mVisibleItemAssit.lastCompletelyVisibleItem,
+                            mVisibleItemAssit.lastVisibleIndex);
+                }
+            }
 
         }
 
         @Override
         public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
             super.onScrolled(recyclerView, dx, dy);
+
+            if (mVisibleItemAssit.updateVisibleItemPosition()) {
+                if (mOnItemVisibilityListener != null) {
+                    mOnItemVisibilityListener.onVisibilityChange(mVisibleItemAssit.firstVisibleIndex,
+                            mVisibleItemAssit.firstCompletelyVisibleItem, mVisibleItemAssit.lastCompletelyVisibleItem,
+                            mVisibleItemAssit.lastVisibleIndex);
+                }
+            }
         }
 
-        /**
-         * 重置索引计数器
-         */
-        void reset() {
-            firstVisibleIndex = firstCompletelyVisibleItem = lastCompletelyVisibleItem = lastVisibleIndex = -1;
-        }
     }
 
 }
