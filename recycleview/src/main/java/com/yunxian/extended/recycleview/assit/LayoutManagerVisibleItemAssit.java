@@ -11,7 +11,7 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
  * 若item的索引值为-1，表示未找到，无效值
  *
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016/9/26 13:36
  */
 public final class LayoutManagerVisibleItemAssit {

@@ -13,7 +13,7 @@ import com.yunxian.extended.recycleview.R;
  * RecycleView的基础适配器
  *
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016-07-31 13:35
  */
 public abstract class BaseRecycleViewAdapter<VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {

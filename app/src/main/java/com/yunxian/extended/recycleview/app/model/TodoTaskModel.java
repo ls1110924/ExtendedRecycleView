@@ -4,7 +4,7 @@ package com.yunxian.extended.recycleview.app.model;
  * 主页中代办任务的数据模型
  *
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016/9/13 20:18
  */
 public class TodoTaskModel {

@@ -14,7 +14,7 @@ import static android.support.v7.widget.LinearLayoutManager.VERTICAL;
  * 给使用LinearLayoutManager布局的RecycleView绘制分割线的装饰器
  *
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016-08-01 09:28
  */
 public class LinearDividerItemDecoration extends RecyclerView.ItemDecoration {

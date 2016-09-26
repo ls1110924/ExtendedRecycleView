@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016/9/26 17:50
  */
 public class HorizontalActivity extends BaseFragmentActivity {

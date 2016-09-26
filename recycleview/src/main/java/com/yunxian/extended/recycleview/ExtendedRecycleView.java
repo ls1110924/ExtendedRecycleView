@@ -11,7 +11,7 @@ import com.yunxian.extended.recycleview.assit.LayoutManagerVisibleItemAssit;
  * 扩展功能的RecycleView
  *
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016/9/25 22:56
  */
 public class ExtendedRecycleView extends RecyclerView {

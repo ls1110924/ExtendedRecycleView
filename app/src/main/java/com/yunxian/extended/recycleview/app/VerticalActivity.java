@@ -4,7 +4,7 @@ import com.yunxian.extended.recycleview.app.utils.BaseFragmentActivity;
 
 /**
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016/9/26 17:52
  */
 public class VerticalActivity extends BaseFragmentActivity{

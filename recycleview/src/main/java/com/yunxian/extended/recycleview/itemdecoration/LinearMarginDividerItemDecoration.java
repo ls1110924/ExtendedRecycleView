@@ -17,7 +17,7 @@ import static android.support.v7.widget.LinearLayoutManager.VERTICAL;
  * <ol><li>其中为ItemView添加外留白</li><li>为ItemView添加对应方向的分割线</li></ol>
  *
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016/9/25 20:11
  */
 public class LinearMarginDividerItemDecoration extends RecyclerView.ItemDecoration {

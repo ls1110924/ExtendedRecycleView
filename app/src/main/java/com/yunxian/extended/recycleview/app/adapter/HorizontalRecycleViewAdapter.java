@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016/9/26 19:14
  */
 public class HorizontalRecycleViewAdapter extends BaseRecycleViewAdapter<RecyclerView.ViewHolder> {

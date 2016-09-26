@@ -10,7 +10,7 @@ import android.view.View;
  * 给RecycleView的Item做外留白处理的装饰器
  *
  * @author A Shuai
- * @email lishuai.ls@alibaba-inc.com
+ * @email ls1110924@163.com
  * @date 2016/9/25 16:18
  */
 public class MarginItemDecoration extends RecyclerView.ItemDecoration {
