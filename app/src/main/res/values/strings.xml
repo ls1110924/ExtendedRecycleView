@@ -1,3 +1,7 @@
 <resources>
+
     <string name="app_name">ExtendedRecycleView</string>
+
+    <string name="hori_list_tip"><![CDATA[待办任务 <font color =#00BA39>%1$d</font>/%2$d]]></string>
+
 </resources>
